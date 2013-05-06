@@ -91,7 +91,7 @@ Execute `fn` for each node in the object but unlike `.map()`, when
 ## .reduce(fn, acc)
 
 For each node in the object, perform a
-[left-fold](http://en.wikipedia.org/wiki/Fold_(higher-order_function))
+[left-fold](http://en.wikipedia.org/wiki/Fold_(higher-order_function)#Folds_on_lists)
 with the return value of `fn(acc, node)`.
 
 If `acc` isn't specified, `acc` is set to the root object for the first step
